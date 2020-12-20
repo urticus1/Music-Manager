@@ -1,0 +1,76 @@
+
+.page-header {
+	size: 30 pt;
+	font: Helvetica;
+	text-align: center;
+}
+
+
+
+.hover-button {
+	font: Helvetica;
+	font-size: 20px;
+	background-color: #4CAF50;
+	border: None;
+	padding: 10px;
+	height: 300px;
+	width: 400px;
+}
+
+
+.hover-button:hover {
+	background-color: #80ff80;
+	border: None;
+	padding: 10px;
+	
+}
+
+.button-container {
+	text-align: center;
+	
+}
+
+.drop-menu {
+	border: thin solid blue;
+	height: 40px;
+	width: 500px;
+	font-size: 25pt;
+	font: 300 1em/100% "Helvetica Neue", Arial, sans-serif;
+	line-height: 3px;
+	padding: 0.5em 3.5em 0.5em 1em;
+	text-align: center;
+	
+}
+
+.drop-menu-container {
+	text-align: center;
+	
+}
+
+.form-wrapper{
+	height: 100px;
+	width: 50%;
+	padding: 20pt;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.display-card-album{
+	background-color: LightSkyBlue;
+	padding: 20px;
+	margin: 10px;
+	text-align: left;
+	width: 50%;
+	margin: 0 auto;
+}
+
+
+.display-card-singer{
+	background-color: pink;
+	padding: 20px;
+	margin: 10px;
+	text-align: left;
+	width: 50%;
+	margin: 0 auto;
+	
+}

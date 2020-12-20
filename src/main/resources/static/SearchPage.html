@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<script  type="text/javascript" src="searchUI.js"></script>
+<link rel="stylesheet" href="style.css">
+
+<h1 id='h' class='page-header'> Search Catalogue</h1>
+
+
+
+<body>
+
+
+	<div style='text-align: center'>
+		<input id="searchBar" name = "query" class='drop-menu'> </input>
+		<br>
+		<button onClick = 'search()'> Search </button>
+	</div>
+
+	<div id='resultsContainer' class = 'results-container'>
+		
+	
+	</div>
+
+	<div style ='text-align: center'>
+		<button onClick = 'previousPage()'> previous </button> <button onClick = 'nextPage()'> next </button>
+		<br>
+		<button onClick = 'reverseSort()'> Flip Sort </button> 
+		
+		<div id='pageNumber'> </div>
+	</div>
+</body>
